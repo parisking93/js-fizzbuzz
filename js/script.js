@@ -8,6 +8,8 @@ for (i = 1; i <= 100; i++) {
         document.getElementById('numeri').innerHTML += i + ' ' + fizz + buzz + boolean + '<br>';
     } else if (i % 6 == 0 && i % 3 == 0 ) {
         document.getElementById('numeri').innerHTML += i + ' ' + fizz + boolean + '<br>';
+    } else if (i % 5 == 0 && i % 3 == 0 ) {
+        document.getElementById('numeri').innerHTML += i + ' ' + fizz + buzz + '<br>';
     } else if (i % 5 == 0) {
         document.getElementById('numeri').innerHTML += i + ' ' + buzz + '<br>';
     } else if (i % 3 == 0 ) {
